@@ -1,5 +1,6 @@
 FROM node:lts-alpine
 
+LABEL org.opencontainers.image.source="https://github.com/gsmlg-ci/snapdrop"
 WORKDIR /snapdrop
 
 COPY ./server /snapdrop
